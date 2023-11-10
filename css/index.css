@@ -384,14 +384,14 @@ body {
     transition: 400ms background;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1000px) or (orientation: portrait) {
     .blog-root .lateral {
         width: 0px;
     }
 }
 
 
-@media(min-width: 800px) and (max-width: 1000px) {
+@media(min-width: 800px) and (max-width: 1000px) and (orientation: portrait)  {
 
     #left-panel h1 {
         font-size: 36px;
